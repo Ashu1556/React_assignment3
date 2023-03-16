@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  .header21 {
+    width: 100%;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(247, 247, 247);
+    padding-top: 4em;
+  }
+  .header23 {
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+  }
+  .header22 {
+    flex: 0.25;
+    width: 100%;
+    height: 100%;
+  }
+}

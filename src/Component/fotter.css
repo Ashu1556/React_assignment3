@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  .main_fotter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50vh;
+  }
+}

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(201, 196, 196);
+  }
+  .header11 {
+    font-size: 40px;
+    color: gray;
+    font-style: oblique;
+    flex: 0.2;
+  }
+  .header1 {
+    display: flex;
+    flex-direction: row;
+
+    flex: 0.3;
+    font-size: 20px;
+  }
+  .header12 {
+    display: flex;
+    flex-direction: row;
+
+    flex: 0.3;
+  }
+}
